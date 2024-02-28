@@ -3,34 +3,61 @@
     src: url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 }
 
+.Container {
+    width: 375px;
+    height: 92px;
 
-header {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    font-size: x-large;
-    color:  #6070FF;
+}
+.ToolbarDark
+{
+    width: 375px;
+    height: 48px;
+    top: 44px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin-top: 44px;
-    margin-left: 12px;
+}
+.MyLogoContainer
+{
+    width: Hug(100px);
+    height: Hug(40px);
+    top: 4px;
+    left: 12px;
     padding: 10px, 12px, 10px, 12px;
 }
-
-.MainPage
+.MyLogo
 {
+    width: 76px;
+    height: 20px;
     font-family: 'Poppins', sans-serif;
-    font-size: 40px;
     font-weight: 700;
-    line-height: 52px;
-    color: #172B4D;
+    font-size: 18px;
+    line-height: 20px;
+    align-content: center;
+    color: #6070FF;
+    ;
 }
-.Body2
+.BurgerButtonContainer
 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #344563;
-
+    width: hug(40px);
+    height: hug(40px);
+    top: 4px;
+    left: 311px;
+    radius: 8px;
+    padding: 8px;
 }
+.BurgerButtonContainer2
+{
+    width: 24px;
+    height: 24px;
+}
+.BurgerButton
+{
+    width: 18px;
+    height: 12px;
+    top: 4px;
+    left: 3px;
+    color: #6070FF;
+    ;
+}
+
+
